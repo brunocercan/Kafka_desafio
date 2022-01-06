@@ -34,7 +34,7 @@ producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
 
 Clientes = get_all_clientes()
 for cliente in Clientes['Clientes']:
-    user_encode_data = json.dumps(cliente).encode('utf-16')
+    user_encode_data = json.dumps(cliente).encode('utf-8')
     future = producer.send('CLIENTES', user_encode_data)
     try:
         record_metadata = future.get(timeout=10)
