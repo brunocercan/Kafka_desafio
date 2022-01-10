@@ -11,13 +11,16 @@ itsdangerous==2.0.1
 Jinja2==3.0.2
 jsonify==0.5
 jsons==1.6.0
+kafka-python==2.0.2
 MarkupSafe==2.0.1
 mysql==0.0.3
 mysqlclient==2.0.3
 PyMySQL==1.0.2
 requests==2.26.0
 six==1.16.0
+style==1.1.0
 typish==1.9.3
+update==0.0.1
 urllib3==1.26.7
 Werkzeug==2.0.2
 yarg==0.1.9
